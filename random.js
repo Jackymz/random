@@ -5,8 +5,20 @@ var namespace = "http://www.w3.org/2000/svg"
 
 
 function createFirstScene(){
- makeCircle(45,45,44,"black", 1)
+ makeCircle(100,55,45,"black")
+ makeCircle(50,20,20,"black")
+ makeCircle(150,20,20,"black")
+ makeEllipse(115,50,20,30,"#FFE4C4")
+ makeEllipse(85,50,20,30,"#FFE4C4")
+ makeEllipse(100,75,50,25,"#FFE4C4")
+ makeEllipse(100, 70, 15, 9,"black")
+ makeEllipse(89, 43, 10, 16, "white")
+ makeEllipse(110, 43, 10, 16, "white")
+ makeEllipse(89, 51, 5, 8, "black")
+ makeEllipse(110,51, 5, 8, "black")
  
+             
+            
 
 }
 
@@ -14,8 +26,20 @@ function createFirstScene(){
 // Fill in this function so that it draws something using SVG shapes!
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
-function createSecondScene() {
-    makeText("beach", 10, 10, 10)
+function createSecondScene(){
+makeRect(65, 50, 80, 50, "brown")
+makeCircle(10, 10, 10, "yellow")
+makeImage("http://www.freeiconspng.com/uploads/house-from-premier-builders-in-carthage-mo-64836--home-builders-5.png", 50, 50, 1)
+
+
+
+
+
+          
+
+
+        
+          
 }
 
 
@@ -23,7 +47,7 @@ function createSecondScene() {
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createThirdScene() {
-    makeText("hi", 50, 50, 10)
+    makeEllipse(50, 50, 20,40, "#964B00", 1)
 }
 
 
