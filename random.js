@@ -16,9 +16,7 @@ function createFirstScene(){
  makeEllipse(110, 43, 10, 16, "white")
  makeEllipse(89, 51, 5, 8, "black")
  makeEllipse(110,51, 5, 8, "black")
- 
-             
-            
+ makeImage("http://images.clipartpanda.com/minnie-mouse-clip-art-clipminhead212.gif", 190, 30, 10, 10)
 
 }
 
@@ -27,10 +25,20 @@ function createFirstScene(){
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createSecondScene(){
-makeRect(65, 50, 80, 50, "brown")
+makeRect(65, 50, 80, 50, "#FAD6A5")
 makeCircle(10, 10, 10, "yellow")
-makeImage("http://www.freeiconspng.com/uploads/house-from-premier-builders-in-carthage-mo-64836--home-builders-5.png", 50, 50, 1)
-
+makeRect(60, 45, 50, 5, "#964B00")
+makeRect(110, 45, 40, 5, "#964B00")
+makeRect(67, 40, 80, 5, "#964B00")
+makeRect(72, 35, 70, 5, "#964B00")
+makeRect(77, 30, 60, 5, "#964B00")
+makeRect(82, 25, 50, 5, "#964B00")
+makeRect(87,20, 40, 5, "#964B00")
+makeRect(92, 15, 30, 5,"#964B00")
+makeEllipse(80, 65, 7 , 7, "yellow")
+makeRect(73, 65, 14, 1, "#FFFDD0")
+makeRect(80, 58, 1, 14, "#FFFDD0")
+makeImage("https://img.clipartfest.com/33b7d636076333ba35580ad36e6f1d8e_electrode20clipart-transparent-door-clipart_999-829.png", 100, 48, 50, 70)
 
 
 
@@ -47,9 +55,13 @@ makeImage("http://www.freeiconspng.com/uploads/house-from-premier-builders-in-ca
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createThirdScene() {
-    makeEllipse(50, 50, 20,40, "#964B00", 1)
-}
+ makeImage("http://eskipaper.com/images/soccer-field-1.jpg", 10, 2, 120, 130)    
+ makeImage("http://kindersay.com/files/images/soccer-ball.png", 60, 50, 5, 5)
+ makeImage("http://s1.ticketm.net/img/tat/dbimages/79696a", 150, 50, 30, 30)
+ makeRect(140, 30, 30, 20, "Blue", 1)
+ makeText("GO FCB", 140, 35, 5, "Red")
 
+}
 
 
 
